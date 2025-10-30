@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloCategorias.Api", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloMovimientos.Api", "ModuloMovimientos.Api\ModuloMovimientos.Api.csproj", "{87141DA2-4728-4D7B-B963-9EA5DC1E53EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloReportes.Api", "ModuloReportes.Api\ModuloReportes.Api.csproj", "{7D0E9BCC-6F92-4934-9940-B9127BF7EFE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{87141DA2-4728-4D7B-B963-9EA5DC1E53EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87141DA2-4728-4D7B-B963-9EA5DC1E53EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87141DA2-4728-4D7B-B963-9EA5DC1E53EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0E9BCC-6F92-4934-9940-B9127BF7EFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E9BCC-6F92-4934-9940-B9127BF7EFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E9BCC-6F92-4934-9940-B9127BF7EFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E9BCC-6F92-4934-9940-B9127BF7EFE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

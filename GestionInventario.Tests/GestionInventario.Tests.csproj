@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tests\CategoriaTests.cs" />
     <Compile Include="Tests\ProductoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +57,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModuloCategorias.Api\ModuloCategorias.Api.csproj">
+      <Project>{a80a344c-655e-4d7c-b132-8b5787d90e50}</Project>
+      <Name>ModuloCategorias.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MóduloProductos.Api\MóduloProductos.Api.csproj">
       <Project>{d1a3795d-11ae-4497-968e-32a9fe8b99ae}</Project>
       <Name>MóduloProductos.Api</Name>
